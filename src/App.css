@@ -89,7 +89,7 @@ button:hover {
 /* Estilo general */
 body {
   font-family: Arial, sans-serif; /* Fuente general */
-  background-color: #f4f4f4; /* Color de fondo de la página */
+  background-color: rgb(244, 244, 244); /* Color de fondo de la página */
   padding: 20px; /* Relleno alrededor de la página */
 }
 
