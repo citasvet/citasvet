@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+/* Estilos para la lista de tareas */
+.task-list {
+  margin-top: 20px; /* Margen superior */
+}
+
+.task-list li {
+  list-style-type: none; /* Quitar viñetas */
+  padding: 10px;
+  border: 1px solid #ddd; /* Bordes suaves */
+  margin-bottom: 10px; /* Espacio entre tareas */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el formulario */
+form {
+  margin-top: 20px; /* Margen superior para el formulario */
+  padding: 20px; /* Relleno para el formulario */
+  border: 1px solid #ddd; /* Bordes suaves */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #f9f9f9; /* Color de fondo claro */
+}
+
+/* Estilo de los botones */
+button {
+  background-color: #28a745; /* Color verde para los botones */
+  color: white; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 15px; /* Relleno */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+button:hover {
+  background-color: #218838; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilos para el reporte */
+.report-button {
+  margin-top: 20px; /* Margen superior */
+  padding: 10px 15px; /* Relleno */
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color de texto */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.report-button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif; /* Fuente general */
+  background-color: #f4f4f4; /* Color de fondo de la página */
+  padding: 20px; /* Relleno alrededor de la página */
+}
+
