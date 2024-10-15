@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
@@ -7,8 +6,9 @@ import Footer from './components/Footer/Footer';
 import Registro from './Registro';
 import Home from './Home';
 import AboutUs from './AboutUs';
-import VerUsuarios from './VerUsuario'; // Asegúrate de que este componente exista
-import Contacto from './Contacto'; // Importa el nuevo componente Contacto
+import VerUsuarios from './VerUsuario';
+import Contacto from './Contacto';
+import Login from './Login'; // Importa el componente Login
 
 const App = () => {
     const [registros, setRegistros] = useState([]);
@@ -28,8 +28,8 @@ const App = () => {
                         <Route path="/aboutus" element={<AboutUs />} />
                         <Route path="/registro" element={<Registro onRegister={handleRegister} />} />
                         <Route path="/services/ver" element={<VerUsuarios registros={registros} />} />
-                        {/* Ruta para contacto */}
-                        <Route path="/contact" element={<Contacto />} /> {/* Agrega esta línea */}
+                        <Route path="/contact" element={<Contacto />} />
+                        <Route path="/login" element={<Login />} /> {/* Nueva ruta de Login */}
                     </Routes>
                 </div>
                 <Footer />
