@@ -1,0 +1,13 @@
+/* About.css */
+h2 {
+    color: #000000; /* Dark blue for headings */
+}
+
+p {
+    color: #000000; /* Dark gray for paragraph text */
+    text-align: justify;
+}
+
+li {
+    text-align: justify;
+}

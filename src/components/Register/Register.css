@@ -1,0 +1,35 @@
+/* Ajuste general del formulario y elementos */
+
+/* Formulario */
+.form-container {
+    max-width: 800px; /* Establece un máximo de ancho solo para el formulario */
+    margin: 0 auto; /* Centra el formulario en la pantalla */
+}
+
+button[type="submit"] {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    width: 60%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+form {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    font-size: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}

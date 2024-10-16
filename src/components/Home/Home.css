@@ -1,0 +1,36 @@
+/* Home.css */
+
+h2 {
+    color: #000000; /* Dark blue for headings */
+    margin-bottom: 20px; /* Space below headings */
+}
+
+h3 {
+    color: #000000; /* Dark blue for subheadings */
+}
+
+p { 
+    color: #000000; /* Dark gray for paragraph text */
+    text-align: center; /* Center align paragraphs */
+    text-justify: inter-word; /* Justify text */
+    margin: 0 auto; /* Center the paragraph block */
+    max-width: 600px; /* Limit width for better readability */
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for better readability */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card {
+    border: none; /* Remove card border */
+}
+
+.card-title {
+    color: #003366; /* Dark blue for card titles */
+}
+
+.card-text {
+    color: #333; /* Dark gray for card text */
+}

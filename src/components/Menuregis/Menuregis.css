@@ -1,0 +1,33 @@
+.custom-nav {
+    background-color: rgb(16, 08, 70); /* Fondo oscuro */
+    padding: 10px 0;
+    border-bottom: none;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.custom-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 150px;
+}
+
+.custom-nav .nav-link.active {
+    color: #ffffff;
+    background-color: rgb(16, 08, 75); /* Mantén el color oscuro cuando está activo */
+    border-bottom: 3px solid #ffffff; /* Subrayado blanco en la opción activa */
+    border-radius: 0;
+}
+
+.custom-nav .nav-link:hover {
+    color: #dddddd;
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+

@@ -11,23 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* src/components/Navbar.css */
-.nav-link {
-  color: #fff; /* Initial color (white) */
-  transition: color 0.3s ease; /* Smooth transition effect */
-}
-
-.nav-link:hover {
-  color: white; /* Change to white on hover */
-}
-/* src/components/Menuregis.css */
-
-.nav-dropdown-item {
-  color: #212529; /* Default dropdown item color */
-  transition: background-color 0.3s ease; /* Smooth transition */
-}
-
-.nav-dropdown-item:hover {
-  background-color: #ffcc00; /* Change background on hover */
-  color: white; /* Change text color on hover */
-}

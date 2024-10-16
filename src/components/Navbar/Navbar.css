@@ -1,40 +1,8 @@
-
-/* src/components/Navbar.css */
-
-.nav-dropdown-item {
-  color: #ffffff; /* Default dropdown item color */
-  transition: background-color 0.3s ease; /* Smooth transition */
+/* Navbar.css */
+.navbar-dark .nav-link {
+    color: #ffffff; /* Custom dark blue color */
 }
 
-.nav-dropdown-item:hover {
-  background-color: #ffffff; /* Change background on hover */
-  color: rgb(255, 255, 255); /* Change text color on hover */
+.navbar-dark .nav-link:hover {
+    color: #ffffff; /* Lighter blue on hover */
 }
-
-.bg-btn-red{
-  background: #ffffff;
-}
-
-/* src/components/Navbar.css */
-
-/* Cambiar el color de los enlaces de navegación a blanco */
-.navbar .dropdown-item {
-    color: rgb(255, 255, 255) !important;
-}
-
-.navbar a.dropdown-item {
-  color: rgb(0, 0, 0) !important;
-}
-
-/* Cambiar el color del título del NavDropdown a blanco */
-.navbar .dropdown-toggle {  
-    color: rgb(255, 255, 255) !important;
-}
-
-/* Para agregar estilos al elemento activo o seleccionado */
-.navbar .nav-link.active,
-.navbar .dropdown-item.active {
-    color: #ffcc00 !important;  /* Ejemplo de color amarillo */
-}
-
-

@@ -1,0 +1,9 @@
+/* src/components/Navbar.css */
+.nav-link {
+    color: rgb(255, 255, 255); /* Initial color (white) */
+    transition: color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .nav-link:hover {
+    color: rgba(255, 255, 255, 0); /* Change to white on hover */
+  }
