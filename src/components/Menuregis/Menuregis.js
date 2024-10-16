@@ -18,7 +18,7 @@ const Menuregis = () => {
                     <Nav.Link eventKey="listUsers" className="text-white">Usuarios Registrados</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="listPets" className="text-white">Medicos registrados</Nav.Link>
+                    <Nav.Link eventKey="listPets" className="text-white">Mascotas</Nav.Link>
                 </Nav.Item>
             </Nav>
 
